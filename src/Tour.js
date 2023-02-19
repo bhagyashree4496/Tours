@@ -9,9 +9,7 @@ function Tour({ id, image, info, name, price, removeTour }) {
         <div className="name">{name}</div>
         <div className="price">${price}</div>
       </div>
-
       <div className="info">{info}</div>
-
       <button
         onClick={() => {
           removeTour(id);
